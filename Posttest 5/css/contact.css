@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("5172658.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+section {
+    height: 100vh;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color:;
+}
+
+.wrap {
+    width: 100%;
+    height: 80px;
+    background-color:
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    height: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.navbar:hover {
+    border-bottom: 3px solid wheat;
+    transition: all .3s ease;
+
+}
+
+.navbar:hover>a {
+     color: crimson;
+}
+.navlink {
+    color: aliceblue;
+    font-size:  1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Stalinist One', cursive;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+
+}
+
+.header span {
+    color:chartreuse
+}
+
+.content-header {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 55%;
+    left: 73%;
+}
+
+.content-header p {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16;
+}
+
+.diskon1 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    border: 10px black solid;
+}
+
+.contact-info {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+
+.logopesan {
+    width: 40%;
+    height: 40%;
+}
+
+.logotelepon {
+    width: 40%;
+    height: 40%;
+}
+
+.logowa {
+    width: 40%;
+    height: 40%;
+
+}
+.card {
+    background:dimgrey;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+
+.card {
+    font-size: 28px;
+    back
+}

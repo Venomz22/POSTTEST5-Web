@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("5172658.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+section {
+    height: 100vh;
+
+}
+.container {
+    width: 100%;
+    height: 100%;
+    background-color:;
+}
+
+.wrap {
+    width: 100%;
+    height: 80px;
+    background-color:
+}
+
+.navigation {
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    height: 100%;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.navbar:hover {
+    border-bottom: 3px solid wheat;
+    transition: all .3s ease;
+
+}
+
+.navbar:hover>a {
+     color: crimson;
+}
+
+.navlink {
+    color: aliceblue;
+    font-size:  1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Stalinist One', cursive;
+}
+
+.header {
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 50px;
+
+}
+
+.header span {
+    color:chartreuse
+}
+
+.content-header {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 55%;
+    left: 73%;
+}
+
+.content-header p {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16;
+}
+
+.diskon1 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    border: 10px black solid;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    padding: 0 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img img {
+    width: 700px;
+    height: 500px;
+    padding: 0 20%;
+
+}
+
+.text h1 {
+    font-size: 60px;
+    color: aliceblue;
+    position: relative;
+}
+
+.text h1::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 4px;
+    background-color:brown;
+    left: 0;
+    bottom: 2px;
+}
+
+.text p {
+    font-size: 15px;
+    color: white;
+    line-height: 28px;
+    margin: 30px 0 45px 0;
+    max-width:480;
+}
+
+.but1 {
+    background-color:whitesmoke;
+    padding: 7px 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color:black;
+    text-decoration: none;
+    margin-right: 15px;
+    transition: all .5s ease;
+}

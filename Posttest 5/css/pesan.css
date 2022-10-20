@@ -1,0 +1,63 @@
+body {
+    background-color: #06283D;
+    background-repeat: repeat-x;
+}
+
+.drop {
+    background-color:  #06283D;
+    color:black;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 14%;
+  
+}
+
+.judul {
+    text-align: center;
+}
+
+.drop form{
+    align-items: center;
+    text-align: left;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.drop form table {
+    padding: 0;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.drop form table .judul {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.drop form table tr td {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;    
+} 
+
+select{
+    padding-top: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border:2px solid bisque;
+    text-align: center;
+}
+
+select option{
+    padding-left: 1px;
+}
+
+.drop form table tr .input .daf{
+    background-color: bisque;
+}
